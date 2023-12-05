@@ -44,5 +44,5 @@ jobs:
         run: |
           nosetests -v --with-spec --spec-color --with-coverage --cover-package=service   
         env: 
-          DATABSE_URI: "postgresql://postgres:pgs3cr3t@postgres:5432/testdb"    
+          DATABSE_URI: "postgresql://postgres:postgres@postgres:5432/testdb"    
 
